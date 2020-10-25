@@ -1,3 +1,4 @@
+#import libraries
 import random
 import src
 import time
@@ -5,6 +6,7 @@ import time
 
 
 def main():
+    #function which handles gameplay
     num_range = src.game_start()
     #let the games beginnnnn!!!!
     player_guesses = src.computer_choice(num_range)
